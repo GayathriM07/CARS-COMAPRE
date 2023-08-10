@@ -13,11 +13,43 @@
     margin: 2px;
     border: 2px solid rgb(131, 115, 115);
   }
-  /* .container{
-    background-color: rgb(245, 243, 240);
-  } */
   p{
     text-align: center;
   }
-  
-  
+  table,th,td{
+    border:1px solid black;
+  }
+  td{
+    text-align: center;
+  }
+  table.centre{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2{
+    text-align: justify;
+  }
+ div.para{
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 120px;
+  padding-right: 100px;
+ }
+ h2.head{
+  padding-left: 80px;
+ }
+ .banner-section{
+  background-image: url('./images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+}
+
+h1{
+  align-content: center;
+  padding-top: 20%;
+  font-size: larger;
+  font-weight: bolder;
+}
+ 
