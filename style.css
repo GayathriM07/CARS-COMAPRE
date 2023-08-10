@@ -1,3 +1,41 @@
+/*--------------------------
+Banner ---------------------*/
+.banner-section{
+  background-image: url('./images/banner-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+}
+.banner-section-newcar{
+ align-self: auto;
+  background-repeat: no-repeat;
+  background-size:auto ;
+  background-position: center center;
+  min-height: 300px;
+  max-width: 50px;
+  
+}
+
+h1{
+  align-content: center;
+  padding-top: 20%;
+  font-size: larger;
+  font-weight: bolder;
+}
+.banner-img{
+  padding-right: 15%;
+  padding-left: 15%;
+}
+p{
+  
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+
 /* add responsive media queries */
 @media screen and (max-width: 1200px) {
     .box{
@@ -13,11 +51,5 @@
     margin: 2px;
     border: 2px solid rgb(131, 115, 115);
   }
-  /* .container{
-    background-color: rgb(245, 243, 240);
-  } */
-  p{
-    text-align: center;
-  }
-  
+
   
