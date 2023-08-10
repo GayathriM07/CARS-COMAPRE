@@ -1,23 +1,35 @@
 /* add responsive media queries */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 200px) {
     .box{
       width: 40%;
     } 
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .box{
       width: 90%;
     } 
   }
   .col{
     margin: 2px;
-    border: 2px solid rgb(131, 115, 115);
+    
   }
   /* .container{
     background-color: rgb(245, 243, 240);
   } */
   p{
-    text-align: center;
+    text-align:left;
   }
-  
+  #img1{
+    width: 17.9rem;
+    height: 150px;
+  }
+  button {
+    background-color: darkblue; 
+    padding-bottom: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    border: 50%;
+  }
+
   
