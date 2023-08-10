@@ -17,22 +17,37 @@
     text-align: center;
   }
   table,th,td{
-    border:1px solid black;
+    border:2px solid black;
   }
-  td{
+  th{
     text-align: center;
+    padding-left: 130px;
+    padding-right: 40px;
   }
-  table.centre{
+ tr{
+  border: 2px;
+ }
+  table.table{
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 500px;
+  } 
+  table{
+    text-align: center;
   }
   h2{
     text-align: justify;
   }
+  h4{
+    text-align: justify;
+    padding-left: 80px;
+  }
  div.para{
   text-align: justify;
   text-justify: inter-word;
-  padding-left: 120px;
+  padding-left: 80px;
   padding-right: 100px;
  }
  h2.head{
@@ -51,5 +66,8 @@ h1{
   padding-top: 20%;
   font-size: larger;
   font-weight: bolder;
+}
+p.cord text{
+  text-align: left;
 }
  
