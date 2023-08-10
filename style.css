@@ -37,19 +37,89 @@ p{
 
 
 /* add responsive media queries */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 200px) {
     .box{
       width: 40%;
     } 
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .box{
       width: 90%;
     } 
   }
   .col{
     margin: 2px;
-    border: 2px solid rgb(131, 115, 115);
+    
+  }
+  p{
+    text-align:left;
+  }
+  #img1{
+    width: 17.9rem;
+    height: 150px;
+  }
+  button {
+    background-color: darkblue; 
+    padding-bottom: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    border: 50%;
   }
 
   
+  table,th,td{
+    border:2px solid black;
+  }
+  th{
+    text-align: center;
+    padding-left: 130px;
+    padding-right: 40px;
+  }
+ tr{
+  border: 2px;
+ }
+  table.table{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 500px;
+  } 
+  table{
+    text-align: center;
+  }
+  h2{
+    text-align: justify;
+  }
+  h4{
+    text-align: justify;
+    padding-left: 80px;
+  }
+ div.para{
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 80px;
+  padding-right: 100px;
+ }
+ h2.head{
+  padding-left: 80px;
+ }
+ .banner-section{
+  background-image: url('./images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+}
+
+h1{
+  align-content: center;
+  padding-top: 20%;
+  font-size: larger;
+  font-weight: bolder;
+}
+p.cord text{
+  text-align: left;
+}
+ 
