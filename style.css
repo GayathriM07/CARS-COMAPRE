@@ -17,12 +17,16 @@ Banner ---------------------*/
   
 }
 
+
+
 h1{
   align-content: center;
   padding-top: 20%;
+  padding-left: 35%;
   font-size: larger;
   font-weight: bolder;
 }
+
 .banner-img{
   padding-right: 15%;
   padding-left: 15%;
@@ -31,8 +35,8 @@ p{
   
   text-align: justify;
   text-justify: inter-word;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 
@@ -122,4 +126,8 @@ h1{
 p.cord text{
   text-align: left;
 }
+/*.container{
+  padding-left: 15%;
+  padding-right: 15%;
+}*/
  
